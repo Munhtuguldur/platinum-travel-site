@@ -15,6 +15,7 @@
 
     @mixin atSmall {
       background-color: none;
+      padding-bottom: 2rem;
     }
   }
 }
