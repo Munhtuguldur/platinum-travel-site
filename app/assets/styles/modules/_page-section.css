@@ -9,4 +9,12 @@
     background-color: $mainBlue;
     color: white;
   }
+
+  &--testimonials {
+    background-color: #e0efe6;
+
+    @mixin atSmall {
+      background-color: none;
+    }
+  }
 }
